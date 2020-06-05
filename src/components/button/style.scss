@@ -1,0 +1,45 @@
+@import '../../styles/constants.scss';
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 18px;
+  transition: all 0.5s;
+  -webkit-appearance: none;
+  text-decoration: none;
+  user-select: none;
+  white-space: nowrap;
+  min-height: 40px;
+  min-width: 100px;
+  background: #7fd2ce;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__value {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:hover {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    outline: none;
+  }
+
+  &[disabled] {
+    cursor: default;
+    pointer-events: none;
+    background: #bfbfbf;
+  }
+
+
+  &.full-width {
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+// Define re-usable constants and media queries here
+
+// Fonts
+$fontFamily: 'sans-serif';
+$fontSize: 18px;
+
+// Text
+$textDefaultColor: #222222;
+
+// Colors
+$error: #960205;
+
+// Mixins
+@mixin headingStyles {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+@mixin linkStyles {
+  color: #3291fb;
+  cursor: pointer;
+  &:hover {
+    color: #1f7afb;
+  }
+}

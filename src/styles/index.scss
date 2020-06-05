@@ -1,0 +1,35 @@
+@import './constants.scss';
+
+body {
+  margin: 0;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  color: $textDefaultColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: 50px;
+}
+
+.heading {
+  @include headingStyles()
+}
+
+a, .fake-link {
+  @include linkStyles()
+}
+
+.form {
+  max-width: 400px;
+
+  &__button {
+    margin-top: 20px
+  }
+}
+
+.error {
+  color: $error;
+  font-size: 14px;
+}

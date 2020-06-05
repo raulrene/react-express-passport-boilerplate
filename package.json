@@ -1,0 +1,50 @@
+{
+  "name": "<<APP_NAME>>",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "classnames": "^2.2.6",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "easy-fetch-api": "^2.0.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "js-cookie": "^2.2.1",
+    "mongoose": "^5.9.16",
+    "node-sass": "^4.14.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "start": "node ./server/index.js"
+  },
+  "proxy": "http://localhost:3001",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2"
+  }
+}
