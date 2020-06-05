@@ -1,10 +1,6 @@
-## React-Express-Passport-Mongoose Boilerplate
+## <<APP_NAME>>
 
-### Easy setup
-
-Clone the repo and then `node ./setup.js 'My App Name'`
-
-### About this boilerplate
+### About this setup
 This is a boilerplate based on `react-scripts`.
 
 It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cookie based authentication` and stores some user data in local storage.
@@ -12,7 +8,7 @@ It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cook
 
  * client-side `react hooks` app
     * routing
-    * session management + authentication
+    * session manag****ement + authentication
     * private routes based on auth and roles
     * styling with `sass`
     * `Input Text` and `Button` components
@@ -36,6 +32,6 @@ It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cook
 
 The has 2 roles by default (ADMIN & USER), a login/auth mechanism and protected routes based on roles.
 
-It inserts 1 user for each role:
+By default you have 2 users created:
  * email: `user@test.com` / password: `password`
  * email: `admin@test.com` / password: `password`

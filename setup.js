@@ -37,7 +37,7 @@ const walk = function(dir, done) {
           })
         } else {
           // If file, read it and replace <<APP_NAME>> string
-          fs.readFile(file, 'utf8', function (err,data) {
+          fs.readFile(file, 'utf8', function(err, data) {
             if (data.indexOf('APP_NAME') > -1) {
               let result = data.replace(/<<APP_NAME>>/g, appName)
               result = result.replace(/<<APP_NAME_CONCAT>>/g, appName.toLowerCase().split(' ').join('-'))
@@ -60,5 +60,12 @@ walk('./', (err) => {
     throw err
   }
 
-  console.log('Finished setting up', appName)
+  fs.unlinkSync('./README.md')
+  fs.rename('./new_README.md', './README.md', function(err) {
+    if (err) {
+      console.error(err)
+    }
+    console.log('Finished setting up', appName)
+
+  })
 })
