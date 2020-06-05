@@ -1,5 +1,5 @@
 {
-  "name": "<<APP_NAME>>",
+  "name": "<<APP_NAME_CONCAT>>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -4,6 +4,9 @@
 
 Clone the repo and then `node ./setup.js 'My App Name'`
 
+### Demo
+https://react-express-mongoose-demo.herokuapp.com/
+
 ### About this boilerplate
 This is a boilerplate based on `react-scripts`.
 
