@@ -37,7 +37,7 @@ It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cook
 * `npm run client` - for client (hot reload)
 * `npm start` - for server (no hot reload - you can install nodemon and run `nodemon ./server/index` instead)
 
-The has 2 roles by default (ADMIN & USER), a login/auth mechanism and protected routes based on roles.
+The app has 2 roles by default (ADMIN & USER), a login/auth mechanism and protected routes based on roles.
 
 It inserts 1 user for each role:
  * email: `user@test.com` / password: `password`
