@@ -2,6 +2,7 @@
   "name": "<<APP_NAME_CONCAT>>",
   "version": "0.1.0",
   "private": true,
+  "licence": "MIT",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "classnames": "^2.2.6",
