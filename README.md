@@ -10,7 +10,7 @@ https://react-express-mongoose-demo.herokuapp.com/
 ### About this boilerplate
 This is a boilerplate based on `react-scripts`.
 
-It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cookie based authentication` and stores some user data in local storage.
+It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cookie based authentication`, has role-based client and server routing, and stores some user data in local storage.
 
 
  * client-side `react hooks` app
