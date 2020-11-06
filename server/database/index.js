@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.set('useCreateIndex', true)
-const dbUrl = process.env.MONGODB_URI
+const dbUrl = process.env.DB_URI
 
 // Connect DB
 mongoose.connect(dbUrl, {

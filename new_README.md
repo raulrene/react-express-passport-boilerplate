@@ -22,7 +22,7 @@ It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cook
     
 ### Configuring it
 
-1. Change `.env` values for `APP_SECRET` and `MONGODB_URI`
+1. Change `.env` values for `APP_SECRET` and `DB_URI`
 2. Change the default users to be inserted in the DB from `server/database/_insertDefaultUsers` - this is just for the ability to test the auth mechanism - remove it afterwards and insert your own users.
 3. Remove `setup.js`
 
