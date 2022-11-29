@@ -19,19 +19,20 @@ It's a mix of `React Hooks`, `Express`, `Mongoose` and `Passport`. It uses `cook
     * private routes based on auth and roles
     * styling with `sass`
     * `Input Text` and `Button` components
-    
-    
- * server-side `express` with 
+
+
+ * server-side `express` with
     * `mongo` connection via `mongoose`
     * authentication via `passport`
     * page routes and API routes based on auth
     * `brypt` password encryption
-    
+
 ### Configuring it
 
 1. Change `.env` values for `APP_SECRET` and `DB_URI`
 2. Change the default users to be inserted in the DB from `server/database/_insertDefaultUsers` - this is just for the ability to test the auth mechanism - remove it afterwards and insert your own users.
-3. Remove `setup.js`
+3. run `setup.js <your_app_name>`
+4. Remove `setup.js` as it's no longer needed
 
 ### Running locally
 * `npm run client` - for client (hot reload)
